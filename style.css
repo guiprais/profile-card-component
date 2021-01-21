@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  margin-left: -175px;
+  margin-top: -200px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: 0 50%, 100% -50%;
+  background-repeat: no-repeat;
+}
+
+.head {
+  background-image: url(./images/bg-pattern-card.svg);
+  height: 140px;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: white;
+}
+
+main img {
+  border-radius: 50%;
+}
+
+main .name {
+  display: flex;
+
+  padding: 0.6rem;
+  margin-top: 0.7rem;
+  font-weight: 700;
+}
+
+main .first-name {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+
+  color: hsl(229, 23%, 23%);
+}
+
+main .age {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 0.5rem;
+  color: hsl(227, 10%, 46%);
+}
+
+main .city {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9rem;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  display: flex;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgb(221, 221, 221);
+
+  background: white;
+  border-radius: 0 0 0.8rem 0.8rem;
+
+  padding: 1rem 1.75rem;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .stats {
+  text-align: center;
+
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+footer .number {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.6rem;
+  color: hsl(229, 23%, 23%);
+}
+
+footer .sub-title {
+  font-size: 0.6em;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  letter-spacing: 2px;
+
+  color: hsl(0, 0%, 59%);
+}
+
+main .img {
+  margin-top: -3rem;
+  border: 0.25rem solid #fff;
+  border-radius: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.name {
+  display: flex;
+}
